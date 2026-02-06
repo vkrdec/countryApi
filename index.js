@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
   res.json({ message: 'Welcome to the API!' });
 });
 
-app.get('/api/hello', (req, res) => {
+app.get('/api', (req, res) => {
   res.json(countries);
 });
 
